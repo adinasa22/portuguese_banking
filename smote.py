@@ -8,3 +8,4 @@ df = pd.read_csv(r'c:\users\user\bank.csv', sep=';')
 print(df.head())
 
 print(df.describe())
+print(df.info())
